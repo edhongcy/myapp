@@ -1,6 +1,6 @@
 #!/bin/sh
 CONF=/etc/config/qpkg.conf
-QPKG_NAME="nginx"
+QPKG_NAME="myapp"
 QPKG_ROOT=`/sbin/getcfg $QPKG_NAME Install_Path -f ${CONF}`
 DOCKER_NAME="container-station"
 DOCKER_ROOT=`/sbin/getcfg $DOCKER_NAME Install_Path -f ${CONF}`
